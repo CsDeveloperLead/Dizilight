@@ -5,7 +5,7 @@ import ServiceCard from "../Components/ServiceCard.jsx";
 const HomeService = () => {
   return (
     <div className='bg-black w-full h-full pt-16 pb-20'>
-       <p className="text-6xl pb-20 font-bold bg-gradient-to-r from-[#124fff] via-[#4db9b9] to-[#2e85ff] text-transparent bg-clip-text text-center flex justify-center px-6">
+       <p className="text-4xl md:text-6xl pb-20 font-bold bg-gradient-to-r from-[#124fff] via-[#4db9b9] to-[#2e85ff] text-transparent bg-clip-text text-center flex justify-center px-6">
           Some of Our Services
         </p>
         <div className="w-full flex justify-center">

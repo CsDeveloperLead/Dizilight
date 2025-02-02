@@ -5,8 +5,8 @@ import NavBar from "../Components/Navbar.jsx";
 
 const ServicesPage = () => {
   return (
-    <div className="min-h-screen bg-black py-6 px-4 sm:px-6 lg:px-8">
-      <div className="w-full relative z-50">
+    <div className="min-h-screen bg-black py-6">
+      <div className="w-full relative z-50 px-4 md:px-10">
         <NavBar />
       </div>
       <p className="text-5xl font-bold text-center bg-gradient-to-r from-[#3f639d] via-[#4db9b9] to-[#2e85ff] bg-clip-text text-transparent mb-10 pt-10">

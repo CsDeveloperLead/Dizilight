@@ -38,7 +38,7 @@ const Contact = () => {
 
   return (
     <div className="bg-[#0e0811] w-full flex flex-col items-center">
-      <div className="w-full pt-6 relative z-50">
+      <div className="w-full pt-6 relative z-50 px-4 md:px-10">
         <NavBar />
       </div>
       <div className="w-full flex flex-col md:flex-row justify-center items-center pt-4 md:pt-10 pb-10 md:pb-20 gap-10 bg-[#0e0811]">

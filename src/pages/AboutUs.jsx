@@ -4,8 +4,8 @@ import about from "../assets/about.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="bg-gray-900 text-white px-10">
-         <div className="relative z-50 py-4">
+    <div className="bg-gray-900 text-white">
+         <div className="relative z-50 py-4 px-4 md:px-10">
         <Navbar />
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 pt-8">
