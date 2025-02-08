@@ -49,13 +49,13 @@ const Contact = () => {
             <span className="mr-2">
               <MdLocationOn size={16} />
             </span>
-            DiziLight Technologies, 123 Main Street, City, Country
+           D-349, Vibhuti Khand, gomti Nagar Lucknow, Uttar Pradesh (226010)
           </p>
           <p className="flex items-center text-sm">
             <span className="mr-2">
               <IoMdMail size={16} />
             </span>{" "}
-            DiziLight@gmail.com
+             info@dizilight.com
           </p>
           <p className="flex items-center text-sm">
             <span className="mr-2">
@@ -67,7 +67,7 @@ const Contact = () => {
             <span className="mr-2">
               <FaPhone size={16} />
             </span>{" "}
-            +91 987654321, +91 1234567890
+            +91 7977600804
           </p>
         </div>
 
@@ -92,13 +92,13 @@ const Contact = () => {
               <span className="mr-2">
                 <MdLocationOn size={20} />
               </span>
-              DiziLight Technologies, 123 Main Street, <br/> City, Country
+             D-349, Vibhuti Khand, gomti Nagar <br/> Lucknow, Uttar Pradesh (226010)
             </p>
             <p className="flex items-center">
               <span className="mr-2">
                 <IoMdMail size={20} />
               </span>{" "}
-              DiziLight@gmail.com
+               info@dizilight.com
             </p>
             <p className="flex items-center">
               <span className="mr-2">
@@ -110,7 +110,7 @@ const Contact = () => {
               <span className="mr-2">
                 <FaPhone size={20} />
               </span>
-              +91 987654321, +91 1234567890
+              +91 7977600804
             </p>
           </div>
 

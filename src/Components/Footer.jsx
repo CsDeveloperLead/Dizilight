@@ -48,10 +48,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-center md:text-start">Company Details</h3>
             <ul className="text-gray-400 space-y-2 flex flex-col items-center md:items-start">
-              <li>123 Business Street,</li>
-              <li>City, Country</li>
-              <li>Email: info@company.com</li>
-              <li>Phone: +123 456 7890</li>
+              <li>D-349, Vibhuti Khand, gomti Nagar</li>
+              <li>Lucknow, Uttar Pradesh (226010)</li>
+              <li>Email: info@dizilight.com</li>
+              <li>Phone: +91 7977600804</li>
             </ul>
           </div>
 
