@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/logo1.png";
+import smalllogo from "../assets/smalllogo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,6 +17,8 @@ const Navbar = () => {
         <div className="w-full h-auto flex justify-between items-center p-2 rounded-2xl xl:px-8 relative z-50">
           {/* Logo */}
           <NavLink to="/" className="flex items-center">
+          <img src={smalllogo} alt="Truwix Logo" className="w-16" />
+
             <img src={logo} alt="Truwix Logo" className="w-36" />
             {/* <span className="text-white text-xl font-bold">Truwix</span> */}
           </NavLink>
@@ -52,7 +55,7 @@ const Navbar = () => {
               Home
             </NavLink>
             <NavLink
-              to="/project"
+              to="/projects"
               className={({ isActive }) =>
                 isActive ? "text-[#0085ab] font-semibold" : "hover:text-[#0085ab]"
               }
@@ -100,7 +103,7 @@ const Navbar = () => {
               Home
             </NavLink>
             <NavLink
-              to="/project"
+              to="/projects"
               className={({ isActive }) =>
                 `block py-2 text-white ${
                   isActive ? "text-[#0085ab] font-semibold" : "hover:text-[#0085ab]"
